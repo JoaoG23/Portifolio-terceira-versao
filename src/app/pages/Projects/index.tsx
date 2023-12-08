@@ -16,7 +16,7 @@ import { breakpoints } from "./data/breakpoints";
 
 export const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <div className="flex justify-center">
         <div className="w-11/12 lg:w-4/6 md:w-11/12">
           <article className="grid justify-center items-center h-[1000px] lg:h-screen gap-3">

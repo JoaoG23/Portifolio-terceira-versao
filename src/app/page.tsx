@@ -6,7 +6,7 @@ import { Footer } from "./pages/Footer";
 
 export default function Home() {
   return (
-    <main className="grid items-center">
+    <main className="grid items-center ">
       <HomePage />
       <About />
       <Projects />

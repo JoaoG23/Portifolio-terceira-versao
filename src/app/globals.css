@@ -17,6 +17,5 @@
 }
 
 body {
-  @apply bg-purple-50
+  @apply bg-purple-50 scroll-smooth
 }
-

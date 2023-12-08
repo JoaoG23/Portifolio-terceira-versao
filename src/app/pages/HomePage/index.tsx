@@ -5,7 +5,7 @@ import { NavContacts } from "./components/NavContacts";
 
 export function HomePage() {
   return (
-    <section>
+    <section id="home">
       <div className="flex justify-center">
         <div className="w-full lg:w-4/6 md:w-11/12">
           <article className="grid lg:flex justify-center items-center h-[1000px] lg:h-screen gap-8">
@@ -19,7 +19,7 @@ export function HomePage() {
               />
               <NavContacts />
             </div>
-            <article className="grid p-1 lg:p-10 sm:p-4 md:p-4">
+            <article className="grid p-2 lg:p-10 md:p-4">
               <TitleLargeDefault>
                 Olá! Eu sou o João Guilherme!
               </TitleLargeDefault>
