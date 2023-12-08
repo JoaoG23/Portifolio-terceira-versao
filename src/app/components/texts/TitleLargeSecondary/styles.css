@@ -1,0 +1,3 @@
+.title--large {
+  @apply font-extrabold text-6xl md:text-6xl lg:text-6xl  text-stone-50;
+}
