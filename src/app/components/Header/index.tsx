@@ -25,6 +25,7 @@ export const Header = () => {
         <nav className="flex gap-3 ">
           <Link className="hover:text-purple-500 duration-200" href="#home">Home</Link>
           <Link className="hover:text-purple-500 duration-200" href="#about">Sobre</Link>
+          <Link className="hover:text-purple-500 duration-200" href="#workexperience">Experiência</Link>
           <Link className="hover:text-purple-500 duration-200" href="#projects">Projetos</Link>
           <Link className="hover:text-purple-500 duration-200" href="#skills">Habilidades</Link>
         </nav>

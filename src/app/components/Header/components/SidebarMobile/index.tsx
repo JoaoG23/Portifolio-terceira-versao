@@ -28,6 +28,13 @@ export const SidebarMobile = ({ show, setShow }: Props) => {
           </Link>
           <Link
             className="rounded-lg p-2 hover:bg-gray-50 hover:text-purple-600"
+            href="#workexperience"
+          >
+            Experiência
+          </Link>
+
+          <Link
+            className="rounded-lg p-2 hover:bg-gray-50 hover:text-purple-600"
             href="#projects"
           >
             Projetos

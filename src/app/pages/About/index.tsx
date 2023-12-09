@@ -12,15 +12,12 @@ export const About = () => {
             <TitleLargeSecondary>Um pouco sobre mim</TitleLargeSecondary>
             <article className="py-10">
               <p className="text-gray-50 font-extrabold text-lg  lg:text-base ">
-                Eu sou um desenvolvedor apaixonado que iniciou sua jornada em
-                2021, mergulhando de cabeça no mundo da programação. Com
-                habilidades tanto no desenvolvimento backend quanto no frontend,
-                encontrei minha verdadeira paixão no ecossistema JavaScript. Ao
-                longo da minha carreira, fui levado a trabalhar no nicho
-                desafiador da área de controle de acesso. Minha dedicação em
-                aprimorar minhas habilidades e contribuir para soluções
-                eficientes nesse campo específico reflete meu compromisso com a
-                excelência e o impacto positivo por meio da tecnologia.
+                Sou um desenvolvedor apaixonado desde 2021, com habilidades em
+                backend e frontend, destacando-me no ecossistema JavaScript.
+                Especializado em controle de acesso, meu compromisso é aprimorar
+                habilidades e contribuir para soluções eficientes, refletindo
+                meu comprometimento com a excelência e o impacto positivo
+                através da tecnologia.
               </p>
             </article>
           </article>
