@@ -19,7 +19,7 @@ export function HomePage() {
               />
               <NavContacts />
             </div>
-            <article className="grid p-2 lg:p-10 md:p-4">
+            <article className="grid p-2 lg:p-10 md:p-4 custom-softly-animation-left-right">
               <TitleLargeDefault>
                 Olá! Eu sou o João Guilherme!
               </TitleLargeDefault>

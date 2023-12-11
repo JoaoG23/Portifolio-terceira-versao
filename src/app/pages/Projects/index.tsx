@@ -7,6 +7,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "./custom.css";
 
 import { TitleLargeDefault } from "../../components/texts/TitleLargeDefault";
 import { ProjectCard } from "./components/ProjectCard";
@@ -34,6 +35,7 @@ export const Projects = () => {
                     srcImage={project.src}
                     title={project.name}
                     description={project.description}
+                    link={project.link}
                   />
                 </SwiperSlide>
               ))}

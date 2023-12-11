@@ -16,6 +16,37 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  @apply bg-purple-50 scroll-smooth
+  @apply bg-purple-50 scroll-smooth;
+}
+
+@keyframes leftToRight {
+  from {
+    opacity: 0;
+    transform: translateX(100vw);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-0vw);
+  }
+}
+@keyframes bottonToTop {
+  from {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0vh);
+  }
+}
+.custom-softly-animation-left-right {
+  animation: leftToRight 1s ease-in-out 0s alternate forwards;
+}
+.custom-softly-animation-bottonToTop {
+  animation: bottonToTop 14s ease-in-out 0s alternate forwards;
 }

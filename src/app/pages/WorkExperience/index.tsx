@@ -8,7 +8,7 @@ export const WorkExperience = () => {
       className="p-0 lg:p-10 h-screen lg:h-[43rem] grid items-center"
     >
       <div className="flex lg:justify-center p-6 lg:p-0">
-        <div className="w-screen lg:w-3/5 md:w-11/12">
+        <div className="w-screen lg:w-4/6 md:w-11/12">
           <article className="grid  justify-center items-center gap-0 lg:gap-8">
             <TitleLargeDefault>Minha Experiência</TitleLargeDefault>
 

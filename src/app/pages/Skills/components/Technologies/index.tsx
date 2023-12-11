@@ -10,7 +10,7 @@ export const Technologies: React.FC = () => {
   return (
     <section className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  gap-3">
       {techlist?.map((technology: Technology, i) => (
-        <div key={i} className="w-[80px] grid items-center">
+        <div key={i} className="w-[80px] grid items-center duration-300 hover:scale-125">
           <p className={textTechnologies}>{technology.name}</p>
           <Image
             src={technology.srcImage}

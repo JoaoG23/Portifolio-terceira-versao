@@ -14,20 +14,28 @@ export const Header = () => {
   return (
     <>
       {toggleMobileButtonVisibility(showSidebar, () => showOrHiddenSideBar())}
-      <header className="hidden md:hidden lg:flex justify-between items-center h-16 px-10 text-amber-500 font-semibold shadow-sm">
-        <Image
-          src={"/logo.svg"}
-          width={60}
-          height={60}
-          alt={"logomarca"}
-        />
+      <header className="bg-purple-50 hidden md:hidden lg:flex lg:fixed lg:z-10 w-full justify-between items-center h-16 px-10 text-amber-500 font-semibold shadow-sm">
+        <Image src={"/logo.svg"} width={60} height={60} alt={"logomarca"} />
 
         <nav className="flex gap-3 ">
-          <Link className="hover:text-purple-500 duration-200" href="#home">Home</Link>
-          <Link className="hover:text-purple-500 duration-200" href="#about">Sobre</Link>
-          <Link className="hover:text-purple-500 duration-200" href="#workexperience">Experiência</Link>
-          <Link className="hover:text-purple-500 duration-200" href="#projects">Projetos</Link>
-          <Link className="hover:text-purple-500 duration-200" href="#skills">Habilidades</Link>
+          <Link className="hover:text-purple-500 duration-200" href="#home">
+            Home
+          </Link>
+          <Link className="hover:text-purple-500 duration-200" href="#about">
+            Sobre
+          </Link>
+          <Link
+            className="hover:text-purple-500 duration-200"
+            href="#workexperience"
+          >
+            Experiência
+          </Link>
+          <Link className="hover:text-purple-500 duration-200" href="#projects">
+            Projetos
+          </Link>
+          <Link className="hover:text-purple-500 duration-200" href="#skills">
+            Habilidades
+          </Link>
         </nav>
       </header>
       <SidebarMobile show={showSidebar} setShow={setShowSidebar} />
