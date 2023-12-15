@@ -9,13 +9,10 @@ export const About = () => {
     >
       <div className="flex lg:justify-center p-6 lg:p-0">
         <div className="w-screen lg:w-4/6 md:w-11/12">
-          <article className="grid lg:flex justify-center items-center gap-0 lg:gap-8 z-0">
+          <article className="grid lg:flex justify-center items-center gap-0 lg:gap-8">
             <TitleLargeSecondary>Um pouco sobre mim</TitleLargeSecondary>
-            <GiSecurityGate
-              size={300}
-              className="absolute right-0 lg:right-20 opacity-20 animate-bounce"
-            />
-            <article className="py-10 custom-softly-animation-left-right">
+          
+            <article className="py-10 custom-softly-animation-left-right ">
               <p className="text-gray-50 font-extrabold text-lg  lg:text-base">
                 Sou um desenvolvedor apaixonado desde 2021, com habilidades em
                 backend e frontend, destacando-me no ecossistema JavaScript.

@@ -20,12 +20,12 @@ export const Projects = () => {
     <section id="projects">
       <div className="flex justify-center">
         <div className="w-11/12 lg:w-4/6 md:w-11/12">
-          <article className="grid justify-center items-center h-[1000px] lg:h-screen gap-3">
+          <article className="grid justify-center items-center h-screen lg:h-screen gap-3">
             <TitleLargeDefault>Meus projetos</TitleLargeDefault>
             <Swiper
               breakpoints={breakpoints}
               modules={[Navigation]}
-              slidesPerView={3}
+              slidesPerView={1}
               navigation
               className="ease flex items-center w-full justify-center m-auto h-full transition duration-200 cardsSwiper"
             >

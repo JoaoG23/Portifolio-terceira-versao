@@ -7,7 +7,7 @@ import { ButtonDefault } from "../../../../components/buttons/buttonDefault/butt
 export const toggleMobileButtonVisibility = (isOpen: boolean, onClick: any) => {
   const sizeIcons: number = 70;
   return (
-    <div className="flex lg:hidden fixed top-4 left-2 z-20">
+    <div className="flex lg:hidden fixed top-4 left-2 z-20 opacity-80">
       {isOpen ? (
         <button onClick={onClick}>
           <AiOutlineClose size={50} color={"#fff"} />

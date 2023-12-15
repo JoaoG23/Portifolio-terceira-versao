@@ -11,8 +11,8 @@ export const ExperienceLine = ({
   techs,
 }: Experience) => {
   return (
-    <ul className="my-1  text-gray-500">
-      <li className="bg-gray-50 pl-10 text-amber-500 rounded-lg mb-4 flex items-center gap-2">
+    <ul className="p-1 text-gray-500">
+      <li className="bg-gray-50 pl-12 text-amber-500 rounded-lg mb-4 flex items-center gap-2">
         <MdWork size={50} />
         <h2 className="text-2xl font-bold">{profession}</h2>
       </li>

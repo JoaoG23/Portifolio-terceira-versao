@@ -7,7 +7,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    link: "https://github.com/JoaoG23/WayOfTheWeights-FrontEnd",
+    link: "https://github.com/JoaoG23/fx-financas",
     name: "Fx Finances",
     src: "/fxfinances.gif",
     description: `O Fx-finances, evolução do sistema Fluxos, é um sistema financeiro de fluxo de caixa voltado para empresas,

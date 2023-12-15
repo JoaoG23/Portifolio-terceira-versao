@@ -6,13 +6,14 @@ export const WorkExperience = () => {
   return (
     <section
       id="workexperience"
-      className="p-0 lg:p-10 h-screen lg:h-[50rem] grid items-center"
+      className="p-0 py-10 lg:p-10 h-full grid items-center"
     >
-      <div className="flex lg:justify-center p-6 lg:p-0">
+      <div className="flex lg:justify-center p-2 lg:p-0">
         <div className="w-screen lg:w-4/6 md:w-11/12">
-          <article className="grid  justify-center items-center gap-0 lg:gap-8">
-            <TitleLargeDefault>Minha Experiência</TitleLargeDefault>
-
+          <article className="grid  justify-center items-center gap-0 lg:gap-8 p-2 ">
+            <div className="pl-10" >
+              <TitleLargeDefault>Minha Experiência</TitleLargeDefault>
+            </div>
             {experiences.map((experience: Experience) => (
               <ExperienceLine
                 key={experience.id}
