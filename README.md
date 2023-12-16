@@ -12,11 +12,6 @@ Bem-vindo ao repositório do meu novo portfólio, onde apresento meus mais recen
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
 
-## Características Principais 🦾🤺
-
-1. **Design Responsivo**: O layout foi desenvolvido para oferecer uma experiência consistente em dispositivos de diferentes tamanhos.
-
-2. **Performance Otimizada**: Utilizando as melhores práticas do Next.js, o desempenho foi otimizado para garantir uma experiência de usuário rápida.
 
 ## Como Executar o Projeto Localmente 👌
 
