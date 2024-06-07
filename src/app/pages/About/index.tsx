@@ -1,5 +1,4 @@
 import { TitleLargeSecondary } from "../../components/texts/TitleLargeSecondary";
-import { GiSecurityGate } from "react-icons/gi";
 
 export const About = () => {
   return (

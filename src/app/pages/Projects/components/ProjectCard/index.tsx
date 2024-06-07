@@ -1,6 +1,5 @@
 import { IoArrowForward } from "react-icons/io5";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 
 import { ButtonDefault } from "@/app/components/buttons/buttonDefault/buttonDefault";
 import { CardDefault } from "@/app/components/cards/CardDefault";
@@ -14,7 +13,6 @@ type Props = {
 };
 
 export const ProjectCard = ({ srcImage, title, description, link }: Props) => {
-
   return (
     <CardDefault>
       <Image
@@ -30,9 +28,7 @@ export const ProjectCard = ({ srcImage, title, description, link }: Props) => {
             {title}
           </h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 ">
-          {description}
-        </p>
+        <p className="mb-3 font-normal text-gray-700 ">{description}</p>
         <Link href={link!}>
           <ButtonDefault>
             <strong>Veja mais</strong>

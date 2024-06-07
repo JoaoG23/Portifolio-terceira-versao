@@ -18,22 +18,22 @@ export const Header = () => {
         <Image src={"/logo.svg"} width={60} height={60} alt={"logomarca"} />
 
         <nav className="flex gap-3 ">
-          <Link className="hover:text-purple-500 duration-200" href="#home">
+          <Link className="hover:text-purple-500 duration-200" href="/#home">
             Home
           </Link>
-          <Link className="hover:text-purple-500 duration-200" href="#about">
+          <Link className="hover:text-purple-500 duration-200" href="/#about">
             Sobre
           </Link>
           <Link
             className="hover:text-purple-500 duration-200"
-            href="#workexperience"
+            href="/#workexperience"
           >
             Experiência
           </Link>
-          <Link className="hover:text-purple-500 duration-200" href="#projects">
+          <Link className="hover:text-purple-500 duration-200" href="/#projects">
             Projetos
           </Link>
-          <Link className="hover:text-purple-500 duration-200" href="#skills">
+          <Link className="hover:text-purple-500 duration-200" href="/#skills">
             Habilidades
           </Link>
         </nav>

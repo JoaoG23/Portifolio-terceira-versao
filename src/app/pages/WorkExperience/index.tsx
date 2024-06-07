@@ -10,8 +10,8 @@ export const WorkExperience = () => {
     >
       <div className="flex lg:justify-center p-2 lg:p-0">
         <div className="w-screen lg:w-4/6 md:w-11/12">
-          <article className="grid  justify-center items-center gap-0 lg:gap-8 p-2 ">
-            <div className="pl-10" >
+          <article className="grid justify-center items-center gap-0 lg:gap-8 p-2 ">
+            <div>
               <TitleLargeDefault>Minha Experiência</TitleLargeDefault>
             </div>
             {experiences.map((experience: Experience) => (
