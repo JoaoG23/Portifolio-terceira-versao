@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
     profession: "Desenvolvedor Fullstack Web",
     area: "Logística",
     company: "XC Soluções Tecnologicas",
-    time: "Dez de 2022 até Atualmente",
+    time: "Dez de 2022 até Mai de 2024",
     description: `
     Atuei na criação, estruturação e documentação do Sistema de Gestão de Doca e Portaria,
      desempenhando funções tanto no Back-end quanto no Front-end.

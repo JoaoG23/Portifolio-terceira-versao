@@ -3,10 +3,30 @@ import { Project } from "./types/ProjectData";
 export const projectData: Project[] = [
   {
     id: 1,
-    name: "Sistema Fluxos",
-    description: "A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real.",
+    name: "Sistema Fluxos financas",
+    description: [
+      "Este projeto se trata de um sistema financeiro de fluxo de caixa, que permite a gestão financeira de empresas de pequeno, médio porte e usuários comuns.",
+      "Facilidade de uso: Sistema intuitivo e fácil de navegar",
+      "Diversidade de classificação: Várias opções para classificar despesas e receitas",
+      "Calendário integrado: Agendamento de transações e acompanhamento de prazos",
+      "Dashboard de 12 meses: Painel abrangente com dados financeiros dos últimos 12 meses",
+    ],
     image: "",
-    link: "https://www.example.com/object1",
+    link: "https://github.com/JoaoG23/fx-financas",
+    video: "/fluxos-v2-video.mp4",
+  },
+  {
+    id: 2,
+    name: "Sistema Fluxos",
+    description: [
+      "Este projeto se trata de um sistema financeiro de fluxo de caixa, que permite a gestão financeira de empresas de pequeno, médio porte e usuários comuns.",
+      "Facilidade de uso: Sistema intuitivo e fácil de navegar",
+      "Diversidade de classificação: Várias opções para classificar despesas e receitas",
+      "Calendário integrado: Agendamento de transações e acompanhamento de prazos",
+      "Dashboard de 12 meses: Painel abrangente com dados financeiros dos últimos 12 meses",
+    ],
+    image: "",
+    link: "https://github.com/JoaoG23/fx-financas",
     video: "/fluxos-v2-video.mp4",
   },
 ];
