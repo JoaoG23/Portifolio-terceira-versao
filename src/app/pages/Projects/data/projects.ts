@@ -14,7 +14,7 @@ export const projects: Project[] = [
      projetado como um SaaS (Software as a Service).`,
   },
   {
-    link: "https://github.com/JoaoG23/WayOfTheWeights-FrontEnd",
+    link: "/projects/2",
     name: "Way Of The Weights",
     src: "/wow.gif",
     description: `Aplicativo Web para treinos de academia com foco em mensurar

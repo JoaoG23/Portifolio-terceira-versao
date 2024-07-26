@@ -4,5 +4,6 @@ export type Project = {
   description: string[];
   link: string;
   video: string;
+  iframe?:boolean; 
   image: string;
 };
