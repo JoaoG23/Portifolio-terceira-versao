@@ -55,4 +55,3 @@ export default function ProjectDetailsId({
     </section>
   );
 }
-console.log("🚀 ~ ButtonDefault:", ButtonDefault);
