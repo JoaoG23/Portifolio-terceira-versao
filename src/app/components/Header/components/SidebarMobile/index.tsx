@@ -16,32 +16,32 @@ export const SidebarMobile = ({ show, setShow }: Props) => {
         <nav className="grid gap-3" onClick={() => setShow(false)}>
           <Link
             className="rounded-lg p-2 hover:bg-gray-50 hover:text-purple-600"
-            href="#home"
+            href="/#home"
           >
             Home
           </Link>
           <Link
             className="rounded-lg p-2 hover:bg-gray-50 hover:text-purple-600"
-            href="#about"
+            href="/#about"
           >
             Sobre
           </Link>
           <Link
             className="rounded-lg p-2 hover:bg-gray-50 hover:text-purple-600"
-            href="#workexperience"
+            href="/#workexperience"
           >
             Experiência
           </Link>
 
           <Link
             className="rounded-lg p-2 hover:bg-gray-50 hover:text-purple-600"
-            href="#projects"
+            href="/#projects"
           >
             Projetos
           </Link>
           <Link
             className="rounded-lg p-2 hover:bg-gray-50 hover:text-purple-600"
-            href="#skills"
+            href="/#skills"
           >
             Habilidades
           </Link>

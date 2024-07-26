@@ -18,7 +18,7 @@ export const projectData: Project[] = [
     id: 2,
     name: "Web app WOW",
     description: [
-      "Web App WOW, um aplicativo inovador para múltiplos usuários focado em ganhos de força. No WOW, você pode cadastrar quantos treinos quiser, acompanhando sua evolução de maneira prática e eficaz.",
+      "Um aplicativo inovador para múltiplos usuários focado em treinos de academia e ganhos de força. No WOW, você pode cadastrar quantos treinos quiser, acompanhando sua evolução de maneira prática e eficaz.",
       "Nosso aplicativo oferece uma tela demonstrativa dos últimos exercícios atualizados, destacando os ganhos de força. O sistema cria gráficos que mostram o peso atual utilizado em cada exercício, comparando com o desempenho anterior. Dessa forma, você visualiza claramente seu progresso e pode ajustar seus treinos para maximizar os resultados.",
       "Experimente o Web App WOW e leve seus treinos para o próximo nível. Acompanhe seus ganhos de força e veja seu desempenho melhorar a cada treino!",
     ],
