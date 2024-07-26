@@ -7,7 +7,7 @@ export function HomePage() {
   return (
     <section id="home">
       <div className="flex justify-center">
-        <div className="w-full lg:w-4/6 md:w-11/12">
+        <div className="w-[90%] lg:w-4/6 md:w-11/12">
           <article className="grid lg:flex justify-center items-center h-[1000px] lg:h-screen gap-8">
             <div className="grid justify-center">
               <Image

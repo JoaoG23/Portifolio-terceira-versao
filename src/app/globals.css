@@ -18,6 +18,8 @@
 
 html {
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -27,17 +29,17 @@ body {
 @keyframes leftToRight {
   from {
     opacity: 0;
-    transform: translateX(100vw);
+    transform: translateX(30vw);
   }
   to {
     opacity: 1;
-    transform: translateX(-0vw);
+    transform: translateX(0vw);
   }
 }
 @keyframes bottonToTop {
   from {
     opacity: 0;
-    transform: translateY(100vh);
+    transform: translateY(30vh);
   }
   to {
     opacity: 1;
@@ -78,7 +80,7 @@ video {
   width: 70%;
   height: 925px;
   border-radius: 170px; */
-  animation: topToBotton 16s ease-in infinite alternate forwards;
+  animation: topToBotton 10s ease-in infinite alternate forwards;
 }
 
 .background-box-2 {
@@ -94,5 +96,5 @@ video {
   width: 50%;
   height: 500px;
   border-radius: 130px; */
-  animation: topToBotton 14s ease infinite alternate forwards;
+  animation: topToBotton 12s ease infinite alternate forwards;
 }

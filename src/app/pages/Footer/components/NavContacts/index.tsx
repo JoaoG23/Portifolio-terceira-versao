@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export const NavContacts = () => {
@@ -26,6 +26,13 @@ export const NavContacts = () => {
           className={`grid justify-items-center gap-1 rounded-lg p-2 lg:p-0 ${fontCuston} duration-200 hover:scale-125`}
         >
           <MdEmail size={sizeIcons} />
+        </div>
+      </Link>
+      <Link href={"https://wa.me/5531996216938"}>
+        <div
+          className={`grid justify-items-center gap-1 rounded-lg p-2 lg:p-0 ${fontCuston} duration-200 hover:scale-125`}
+        >
+          <FaWhatsapp color={"white"} size={32} />
         </div>
       </Link>
     </nav>
