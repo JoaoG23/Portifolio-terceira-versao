@@ -1,11 +1,11 @@
 import { projectData } from "../data/project-data";
 import { Project } from "../data/types/ProjectData";
 import { TitleLargeDefault } from "@/app/components/texts/TitleLargeDefault";
-import { ButtonDefault } from "@/app/components/buttons/buttonDefault/buttonDefault";
 import Image from "next/image";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { ButtonSecondary } from "@/app/components/buttons/ButtonSecondary/ButtonSecondary";
 import Link from "next/link";
+import { ButtonDefault } from "@/app/components/buttons/buttonDefault/buttonDefault";
 
 export default function ProjectDetailsId({
   params,
@@ -30,12 +30,21 @@ export default function ProjectDetailsId({
               {detail}
             </p>
           ))}
-          <Link href={"https://wa.me/5531996216938"}>
-            <ButtonSecondary >
-              <FaWhatsapp size={25} />
-              <p>Solicite o seu orçamento</p>
-            </ButtonSecondary>
-          </Link>
+
+          <div className="grid gap-2 lg:gap-2 lg:grid-cols-2 ">
+            <Link href={"https://wa.me/5531996216938"}>
+              <ButtonSecondary>
+                <FaWhatsapp size={25} />
+                <p>Solicite o seu orçamento</p>
+              </ButtonSecondary>
+            </Link>
+            <Link href={project.link}>
+              <ButtonDefault>
+                <FaGithub size={25} />
+                <p>Acesse o Github</p>
+              </ButtonDefault>
+            </Link>
+          </div>
         </article>
         <article>
           {project.iframe ? (
@@ -47,7 +56,7 @@ export default function ProjectDetailsId({
             <Image
               width={400}
               height={400}
-              className="rounded-t-lg w-full h-auto"
+              className="rounded-2xl w-full h-auto shadow-sm"
               src={project.image}
               alt={project.name}
             />

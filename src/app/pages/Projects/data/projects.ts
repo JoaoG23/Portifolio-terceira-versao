@@ -47,7 +47,6 @@ export const projects: Project[] = [
     link: "/projects/6",
     name: "Copa Chat",
     src: "/copachat.png",
-    description: `Web app sala de bate-papo simples para validar conhecimentos em WebSocket, 
-    permitindo a conexão de uma ou mais pessoas por meio de mensagens em tempo real.`,
+    description: `O chat empresarial ideal para pequenas empresas. Desenvolvido para comunicação corporativa interna para troca de mensagens entre colaboradores.`,
   },
 ];
