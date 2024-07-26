@@ -49,7 +49,7 @@ export default function ProjectDetailsId({
         <article>
           {project.iframe ? (
             <iframe
-              className="rounded-3xl w-auto md:lg:w-[29vw] h-72"
+              className="rounded-3xl w-full md:lg:w-[29vw] h-72"
               src={project.video}
             ></iframe>
           ) : (
